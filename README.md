@@ -1,3 +1,16 @@
 # Pacific Ocean theme
 
-## My custom theme for VS Code v1.68 that was designed specifically for syntax highlighting.
+### Custom theme for VS Code that was designed specifically for syntax highlighting.
+
+## Examples
+
+- ## VS Code window
+  ![vscode](./img/empty_window.JPG)
+- ## Settings
+  ![html](./img/settings_window.JPG)
+- ## React
+  ![reactjs](./img/react.JPG)
+- ## HTML
+  ![html](./img/html.JPG)
+- ## CSS
+  ![html](./img/css.JPG)

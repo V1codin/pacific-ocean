@@ -1,10 +1,15 @@
 {
-  "name": "pacific_ocean",
+  "name": "pacific-ocean",
   "displayName": "%displayName%",
   "description": "%description%",
   "version": "1.0.0",
-  "publisher": "Kir O.",
+  "author": {
+        "name": "Kyrylo Orlovskyi",
+        "url": "https://www.linkedin.com/in/kirill-orlovsky-55049a1a5/"
+  },
+  "publisher": "KirOrlovskyi",
   "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.68.0"
   },
@@ -19,7 +24,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/V1codin/theme_Pacific_Ocean"
+    "url": "https://github.com/V1codin/pacific-ocean"
   },
   "contributes": {
     "themes": [
