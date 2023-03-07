@@ -1,0 +1,33 @@
+{
+  "name": "pacific_ocean",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "Kir O.",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "Pacific Ocean",
+    "dark",
+    "black",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/V1codin/theme_Pacific_Ocean"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pacific Ocean",
+        "uiTheme": "vs-dark",
+        "path": "./themes/pacific-ocean.json"
+      }
+    ]
+  }
+}
