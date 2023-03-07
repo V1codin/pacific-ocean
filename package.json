@@ -1,17 +1,17 @@
 {
   "name": "pacific-ocean",
-  "displayName": "%displayName%",
-  "description": "%description%",
-  "version": "1.0.0",
+  "displayName": "Pacific Ocean",
+  "description": "Pacific Ocean theme for Visual Studio Code",
+  "version": "1.0.3",
   "author": {
-        "name": "Kyrylo Orlovskyi",
-        "url": "https://www.linkedin.com/in/kirill-orlovsky-55049a1a5/"
+    "name": "Kyrylo Orlovskyi",
+    "url": "https://www.linkedin.com/in/kirill-orlovsky-55049a1a5/"
   },
   "publisher": "KirOrlovskyi",
   "license": "MIT",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.68.0"
+    "vscode": "1.68.0"
   },
   "categories": [
     "Themes"

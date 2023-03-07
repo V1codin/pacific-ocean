@@ -5,12 +5,15 @@
 ## Examples
 
 - ## VS Code window
-  ![vscode](./img/empty_window.JPG)
+  <a href="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/empty_window.JPG" target="_blank"><img src="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/empty_window.JPG" width="1024" /></a>
 - ## Settings
-  ![html](./img/settings_window.JPG)
+  <a href="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/settings_window.JPG" target="_blank"><img src="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/settings_window.JPG" width="1024" /></a>
 - ## React
-  ![reactjs](./img/react.JPG)
+  <a href="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/react.JPG" target="_blank"><img src="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/react.JPG" width="1024" /></a>
 - ## HTML
-  ![html](./img/html.JPG)
+  <a href="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/html.JPG" target="_blank"><img src="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/html.JPG" width="1024" /></a>
 - ## CSS
-  ![html](./img/css.JPG)
+
+  <a href="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/css.JPG" target="_blank"><img src="https://raw.githubusercontent.com/V1codin/pacific-ocean/master/img/css.JPG" width="1024" /></a>
+
+[Rate the theme on the marketplace if you liked it ;-).](https://marketplace.visualstudio.com/items?itemName=KirOrlovskyi.pacific-ocean)
