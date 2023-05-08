@@ -30,6 +30,10 @@
       "foreground": "#0c7b44",
       "fontStyle": "bold"
     },
+	"namespace": {
+	  "fontStyle": "bold",
+      "foreground": "#8FB3C3"
+	},
     "*.async": "#4dd67b",
     "*.static": "#CF882C",
     "variable": "#c05252",
@@ -568,15 +572,18 @@
     },
     {
       "scope": [
-        "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html"
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end"
       ],
       "settings": {
         "foreground": "#22272B"
       }
     },
     {
-      "scope": ["entity.other.attribute-name.html"],
+      "scope": ["entity.other.attribute-name.html", 
+		"entity.other.attribute-name.tsx", 
+		"entity.other.attribute-name.js.jsx"
+	  ],
       "settings": {
         "foreground": "#CC66FF"
       }
