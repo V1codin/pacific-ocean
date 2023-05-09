@@ -12,28 +12,28 @@
       "foreground": "#0c7b44",
       "fontStyle": "bold italic"
     },
-	"class" : {
-	  "foreground": "#73D0FF",
-	},
-	"type.defaultLibrary": {
+    "class": {
+      "foreground": "#73D0FF"
+    },
+    "type.defaultLibrary": {
       "foreground": "#0c7b44",
       "fontStyle": "bold italic"
     },
-	"typeParameter": {
-		"foreground": "#256aff",
-		"fontStyle": "bold"
-	},
-	"type": {
-		"fontStyle": "underline"
-	},
-	"interface.defaultLibrary": {
+    "typeParameter": {
+      "foreground": "#256aff",
+      "fontStyle": "bold"
+    },
+    "type": {
+      "fontStyle": "underline"
+    },
+    "interface.defaultLibrary": {
       "foreground": "#0c7b44",
       "fontStyle": "bold"
     },
-	"namespace": {
-	  "fontStyle": "bold",
+    "namespace": {
+      "fontStyle": "bold",
       "foreground": "#8FB3C3"
-	},
+    },
     "*.async": "#4dd67b",
     "*.static": "#CF882C",
     "variable": "#c05252",
@@ -180,11 +180,9 @@
       }
     },
     {
-      "scope": [
-        "punctuation.definition.string.template"
-      ],
+      "scope": ["punctuation.definition.string.template"],
       "settings": {
-        "foreground": "#CC66FF",
+        "foreground": "#CC66FF"
       }
     },
     {
@@ -562,9 +560,7 @@
       }
     },
     {
-      "scope": [
-        "storage.modifier.async"
-      ],
+      "scope": ["storage.modifier.async"],
       "settings": {
         "foreground": "#4DD67B",
         "fontStyle": ""
@@ -580,10 +576,11 @@
       }
     },
     {
-      "scope": ["entity.other.attribute-name.html", 
-		"entity.other.attribute-name.tsx", 
-		"entity.other.attribute-name.js.jsx"
-	  ],
+      "scope": [
+        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js.jsx"
+      ],
       "settings": {
         "foreground": "#CC66FF"
       }
@@ -622,11 +619,15 @@
         "fontStyle": "bold"
       }
     },
-	{
-      "scope": ["storage.type.type", "storage.type.namespace", "storage.type.interface"],
+    {
+      "scope": [
+        "storage.type.type",
+        "storage.type.namespace",
+        "storage.type.interface"
+      ],
       "settings": {
         "foreground": "#7C95A0",
-		"fontStyle": "none"
+        "fontStyle": ""
       }
     },
     {
