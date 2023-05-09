@@ -3,6 +3,7 @@
   "name": "Pacific Ocean",
   "type": "dark",
   "semanticTokenColors": {
+    "comment": "#6A9955",
     "method": "#A6E22E",
     "variable.defaultLibrary": {
       "foreground": "#0c7b44",
@@ -16,8 +17,8 @@
       "foreground": "#73D0FF"
     },
     "type.defaultLibrary": {
-      "foreground": "#0c7b44",
-      "fontStyle": "bold italic"
+      "foreground": "#5a9e7d",
+      "fontStyle": "bold"
     },
     "typeParameter": {
       "foreground": "#256aff",
@@ -27,7 +28,7 @@
       "fontStyle": "underline"
     },
     "interface.defaultLibrary": {
-      "foreground": "#0c7b44",
+      "foreground": "#80ad98",
       "fontStyle": "bold"
     },
     "namespace": {
@@ -68,7 +69,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#818181"
+        "foreground": "#6A9955"
       }
     },
     {
@@ -491,7 +492,8 @@
       "scope": [
         "support.type.property-name.json",
         "string.quoted.single",
-        "keyword.operator.logical"
+        "keyword.operator.logical",
+        "keyword.operator.expression"
       ],
       "settings": {
         "fontStyle": ""
@@ -601,7 +603,7 @@
     {
       "scope": ["storage.modifier.ts", "storage.modifier.tsx"],
       "settings": {
-        "foreground": "#7C95A0",
+        "foreground": "#394d49",
         "fontStyle": ""
       }
     },
@@ -615,7 +617,7 @@
     {
       "scope": ["support.type.primitive.ts", "support.type.primitive.tsx"],
       "settings": {
-        "foreground": "#5A737E",
+        "foreground": "#62b5a4",
         "fontStyle": "bold"
       }
     },
@@ -626,7 +628,7 @@
         "storage.type.interface"
       ],
       "settings": {
-        "foreground": "#7C95A0",
+        "foreground": "#80b0c4",
         "fontStyle": ""
       }
     },
