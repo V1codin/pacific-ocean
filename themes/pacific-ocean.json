@@ -3,6 +3,7 @@
   "name": "Pacific Ocean",
   "type": "dark",
   "semanticTokenColors": {
+    "comment": "#6A9955",
     "method": "#A6E22E",
     "variable.defaultLibrary": {
       "foreground": "#0c7b44",
@@ -16,8 +17,8 @@
       "foreground": "#73D0FF"
     },
     "type.defaultLibrary": {
-      "foreground": "#0c7b44",
-      "fontStyle": "bold italic"
+      "foreground": "#5a9e7d",
+      "fontStyle": "bold"
     },
     "typeParameter": {
       "foreground": "#256aff",
@@ -27,7 +28,7 @@
       "fontStyle": "underline"
     },
     "interface.defaultLibrary": {
-      "foreground": "#0c7b44",
+      "foreground": "#80ad98",
       "fontStyle": "bold"
     },
     "namespace": {
@@ -39,6 +40,7 @@
     "variable": "#c05252",
     "*.readonly": "#fff",
     "function": "#A6E22E",
+    "member": "#A6E22E",
     "string": "#c5d671",
     "parameter": { "fontStyle": "italic bold" }
   },
@@ -68,7 +70,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#818181"
+        "foreground": "#6A9955"
       }
     },
     {
@@ -101,12 +103,6 @@
       "settings": {
         "foreground": "#CF882C",
         "fontStyle": ""
-      }
-    },
-    {
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#F92672"
       }
     },
     {
@@ -325,6 +321,13 @@
       }
     },
     {
+      "scope": "variable.other.readwrite.ts",
+      "settings": {
+        "foreground": "#0C7B44",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
       "scope": "variable.parameter.function.coffee",
       "settings": {
         "foreground": "#E4F279",
@@ -491,7 +494,8 @@
       "scope": [
         "support.type.property-name.json",
         "string.quoted.single",
-        "keyword.operator.logical"
+        "keyword.operator.logical",
+        "keyword.operator.expression"
       ],
       "settings": {
         "fontStyle": ""
@@ -510,10 +514,23 @@
       }
     },
     {
-      "scope": ["keyword.control.flow"],
+      "scope": ["keyword.control", "keyword.operator"],
       "settings": {
         "foreground": "#F92672",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["punctuation.terminator.statement.cs"],
+      "settings": {
+        "foreground": "#B1C7CC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword.operator"],
+      "settings": {
+        "fontStyle": ""
       }
     },
     {
@@ -577,6 +594,17 @@
     },
     {
       "scope": [
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.end.js"
+      ],
+      "settings": {
+        "foreground": "#414950"
+      }
+    },
+    {
+      "scope": [
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.tsx",
         "entity.other.attribute-name.js.jsx"
@@ -599,9 +627,14 @@
       }
     },
     {
-      "scope": ["storage.modifier.ts", "storage.modifier.tsx"],
+      "scope": [
+        "storage.modifier.ts",
+        "storage.modifier.tsx",
+        "storage.modifier.cs",
+        "source.cs"
+      ],
       "settings": {
-        "foreground": "#7C95A0",
+        "foreground": "#394d49",
         "fontStyle": ""
       }
     },
@@ -613,9 +646,13 @@
       }
     },
     {
-      "scope": ["support.type.primitive.ts", "support.type.primitive.tsx"],
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "keyword.type.cs"
+      ],
       "settings": {
-        "foreground": "#5A737E",
+        "foreground": "#62b5a4",
         "fontStyle": "bold"
       }
     },
@@ -623,11 +660,18 @@
       "scope": [
         "storage.type.type",
         "storage.type.namespace",
-        "storage.type.interface"
+        "storage.type.interface",
+        "keyword.control.type"
       ],
       "settings": {
-        "foreground": "#7C95A0",
+        "foreground": "#80b0c4",
         "fontStyle": ""
+      }
+    },
+    {
+      "scope": ["keyword.control.import", "keyword.control.from"],
+      "settings": {
+        "foreground": "#394D49"
       }
     },
     {
@@ -695,6 +739,7 @@
     "editorGutter.modifiedBackground": "#f7b83d",
 
     "editorIndentGuide.background": "#183134",
+    "editorIndentGuide.background1": "#183134",
 
     "editorLineNumber.foreground": "#295156",
 
