@@ -36,7 +36,7 @@
       "foreground": "#8FB3C3"
     },
     "*.static": "#CF882C",
-    "variable": "#c05252",
+    "variable": "#da5e5e",
     "*.readonly": "#fff",
     "function": "#A6E22E",
     "member": "#A6E22E",
@@ -320,13 +320,7 @@
         "fontStyle": ""
       }
     },
-    {
-      "scope": "variable.other.readwrite.ts",
-      "settings": {
-        "foreground": "#0C7B44",
-        "fontStyle": "italic bold"
-      }
-    },
+
     {
       "scope": "variable.parameter.function.coffee",
       "settings": {
@@ -514,7 +508,14 @@
       }
     },
     {
-      "scope": ["keyword.control", "keyword.operator"],
+      "scope": ["keyword.control", "keyword.operator.new.ts"],
+      "settings": {
+        "foreground": "#f92672",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["keyword.operator"],
       "settings": {
         "foreground": "#f92672",
         "fontStyle": "italic"
