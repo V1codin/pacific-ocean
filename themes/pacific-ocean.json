@@ -35,13 +35,13 @@
       "fontStyle": "bold",
       "foreground": "#8FB3C3"
     },
-    "*.async": "#4dd67b",
     "*.static": "#CF882C",
     "variable": "#c05252",
     "*.readonly": "#fff",
     "function": "#A6E22E",
     "member": "#A6E22E",
     "string": "#c5d671",
+    "*.async": "#4dd67b",
     "parameter": { "fontStyle": "italic bold" }
   },
   "semanticHighlighting": true,
@@ -516,7 +516,7 @@
     {
       "scope": ["keyword.control", "keyword.operator"],
       "settings": {
-        "foreground": "#F92672",
+        "foreground": "#f92672",
         "fontStyle": "italic"
       }
     },
